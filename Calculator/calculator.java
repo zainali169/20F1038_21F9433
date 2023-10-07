@@ -15,5 +15,16 @@ public class calculator {
 	public calculator() {
 		// TODO Auto-generated constructor stub
 	}
+	public class Main {
+	    public static void main(String[] args) {
+	        calculator calc = new calculator(); 
 
+	        
+	        int additionResult = calc.add();
+	        System.out.println("Addition result: " + additionResult);
+
+	        int subtractionResult = calc.sub();
+	        System.out.println("Subtraction result: " + subtractionResult);
+	    }
+	}
 }
